@@ -6,10 +6,21 @@ import re
 import json
 import requests
 from datetime import datetime
+import subprocess
+import importlib.util
 
 app = Flask(__name__)
 CORS(app) 
 
+def ensure_spacy_model(model_name):
+    try:
+        spacy.load(model_name)
+    except OSError:
+        subprocess.run(["python", "-m", "spacy", "download", model_name], check=True)
+
+model = "en_core_web_sm"
+ensure_spacy_model(model)
+nlp = spacy.load(model)
 
 nlp = spacy.load("en_core_web_sm")
 
