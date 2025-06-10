@@ -61,7 +61,7 @@ export default function Home() {
   const handleQuerySubmit = async () => {
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:5000/query", {
+      const response = await fetch("https://nlp-fhir-query-tool-back-end.onrender.com/query", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ query })
