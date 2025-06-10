@@ -40,13 +40,14 @@ AI-on-FHIR/
 
 
 # Deployment
--  Frontend: Hosted on Vercel : https://nlp-fhir-query-tool-n7vkg7v4o-zahras-projects-c0301a43.vercel.app/
+
+**Frontend**: Hosted on Vercel : https://nlp-fhir-query-tool-n7vkg7v4o-zahras-projects-c0301a43.vercel.app/
 -  This is the main interface where you can:
 1. Enter natural-language-like patient queries
 2. View dynamic results and visualizations
 3. Get suggestions as you type
    
--  Backend: Hosted on Render: https://nlp-fhir-query-tool-back-end.onrender.com/
+**Backend**: Hosted on Render: https://nlp-fhir-query-tool-back-end.onrender.com/
 -  The backend processes queries, performs NLP, and fetches FHIR-compatible data. 
 
 
