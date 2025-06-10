@@ -25,8 +25,13 @@ AI-on-FHIR/
 
 1. Clone or download the repository
 2. Create a virtual environment and activate it
-3. Install dependencies
-4. Run the tool
+3. Set Up the Python Backend
+4. Install backend dependencies listed in the requirements.txt file
+5. Run the Flask backend
+6. Set Up the React Frontend
+7. Install frontend dependencies
+8. Start the development server
+9. Run the tool
 
 #Example Queries 
 1. Show me all diabetic patients over 50
@@ -35,8 +40,15 @@ AI-on-FHIR/
 
 
 # Deployment
--  Backend: Hosted on Render: https://nlp-fhir-query-tool-back-end.onrender.com/
 -  Frontend: Hosted on Vercel : https://nlp-fhir-query-tool-n7vkg7v4o-zahras-projects-c0301a43.vercel.app/
+-  This is the main interface where you can:
+1. Enter natural-language-like patient queries
+2. View dynamic results and visualizations
+3. Get suggestions as you type
+   
+-  Backend: Hosted on Render: https://nlp-fhir-query-tool-back-end.onrender.com/
+-  The backend processes queries, performs NLP, and fetches FHIR-compatible data. 
+
 
 # TODO / Improvements
 -   Add OAuth2 + SMART on FHIR
