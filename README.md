@@ -36,7 +36,7 @@ AI-on-FHIR/
 
 # Deployment
 Backend: Hosted on Render: https://nlp-fhir-query-tool-back-end.onrender.com/
-Frontend: Hosted on Vercel : https://nlp-fhir-query-tool.vercel.app/
+Frontend: Hosted on Vercel : https://nlp-fhir-query-tool-n7vkg7v4o-zahras-projects-c0301a43.vercel.app/
 
 # TODO / Improvements
  Add OAuth2 + SMART on FHIR
